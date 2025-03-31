@@ -24,6 +24,12 @@ We developed and compared two deep learning models:
 - **LSTM**: Processes sequential thermal image data to predict raceway depth and height over time.
 - **CNN-LSTM**: First extracts spatial features with 1D convolutions and then models temporal dependencies with LSTM layers.
 
+⚠️ Note: The dataset used in this project (LSTM.csv) is derived from CFD simulations and contains proprietary results, and therefore is not publicly shared. 
+
+To test the code:
+- You may use the `preprocessing.py` script with your own thermal images.
+- Or modify the models to work with synthetic/sample data.
+
 ---
 
 ## 📁 Project Structure
