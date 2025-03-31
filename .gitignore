@@ -1,1 +1,18 @@
+# Ignore data files
+*.csv
+data/
+
+# Ignore model checkpoints
+*.h5
+*.ckpt
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
 
